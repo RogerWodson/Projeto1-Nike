@@ -1,8 +1,13 @@
-
-.principal{
+.principal {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 10%;
+  background-image: url(https://images4.alphacoders.com/632/632661.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+
 .secao {
   text-align: center;
   padding-top: 30px;
@@ -11,49 +16,50 @@
 }
 
 .secao-topo {
-   display:flex;
-  justify-content:center;
+  display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
-.secao-topo ul{
+.secao-topo ul {
   width: 100%;
   height: 10%;
-  display:contents;
-   }
+  display: contents;
+}
 
-.secao-topo ul li{
-   margin: 0 8%;
-  }
+.secao-topo ul li {
+  margin: 0 8%;
+}
 
-.secao-topo ul li a{
+.secao-topo ul li a {
   text-decoration: none;
   font-weight: bold;
-  font-size:20px;
-  color:darkblue;
+  font-size: 20px;
+  color: rgb(198, 252, 128);
   margin-top: 10%;
   text-align: center;
 }
-.secao-topo img{
-  min-width:5%;
+
+.secao-topo img {
+  min-width: 5%;
   max-width: 12%;
   max=height: 7%;
 }
 
-.principal h1{
+.principal h1 {
   text-align: center;
   font-size: 70px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: bisque;
 }
 
-
-.secao-banner{
+F .secao-banner {
   width: 100%;
   margin: auto;
 
 }
 
-.secao img{
+.secao img {
   min-width: 30%;
   max-width: 80%;
 }
@@ -61,28 +67,34 @@
 .secao p {
   font-size: 20px;
   margin: 3% 10%;
- }
+  color: rgb(231, 225, 225);
+}
 
 
 
 .secao h3 {
   font-size: 24px;
-  color: #1d80c1;
+  color: #47da89;
 }
 
-.lista-produtos a{
+.lista-produtos a {
   width: 135px;
   text-align: center;
   text-decoration: none;
-  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(166, 242, 245);
+  margin-bottom: 10px;
 }
 
 .imagem {
   width: 200px;
+  margin-top: 15px;
+  box-shadow: 0 0 1em rgb(33, 208, 231);
 }
 
 .secao-rodape,
 .contato {
-  background-color: #1d80c1;
+  background-color: #054570;
   color: white;
 }
