@@ -1,6 +1,6 @@
 .principal {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 10%;
+  margin: 1%;
   background-image: url(https://images4.alphacoders.com/632/632661.jpg);
   background-attachment: fixed;
   background-size: cover;
@@ -28,7 +28,7 @@
 }
 
 .secao-topo ul li {
-  margin: 0 8%;
+  margin: 0 5%;
 }
 
 .secao-topo ul li a {
